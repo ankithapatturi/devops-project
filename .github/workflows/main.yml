@@ -24,5 +24,5 @@ jobs:
       run: |
         IMAGE_TAG=latest
         docker build -t dev-jenkins-repo .
-        docker tag dev-jenkins-repo:latest 944938119562.dkr.ecr.us-east-1.amazonaws.com/dev-jenkins-repo:latest
-        docker push 944938119562.dkr.ecr.us-east-1.amazonaws.com/dev-jenkins-repo:latest
+        docker tag dev-jenkins-repo:latest public.ecr.aws/x2q2w2d1/dev-jenkins-repo:latest
+        docker push public.ecr.aws/x2q2w2d1/dev-jenkins-repo:latest
